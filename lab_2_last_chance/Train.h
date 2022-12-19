@@ -44,28 +44,11 @@ public:
 		in.clear();
 		getline(in, p.prop[ARRIVAL]);
 
-		/*std::cout << "Arrival value: ";
-
-		string str;
-		while (1) {
-			std::cin >> str;
-			if (!str.empty() && str.find_first_not_of("0123456789") == std::string::npos) {
-				p.prop[ARRIVAL] = str;
-				break;
-			}
-			else {
-				cout << "Error input , please repeat input (Only numbers)\n";
-				continue;
-			}
-		}
-		in.clear();
-		in.ignore();*/
 
 		string str;
 
 		std::cout << "Train value: ";
 
-		//string str;
 		while (1) {
 			std::cin >> str;
 			if (!str.empty() && str.find_first_not_of("0123456789") == std::string::npos) {

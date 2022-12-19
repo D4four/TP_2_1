@@ -22,12 +22,12 @@ public:
 
 	void flipFlag();
 	void seeFlag();
-	void bestPrice();
+	void bestEarly();
 
 	void add();
 	void print();
 	void del();
 	void edit();
-	void findStore();
+	void findTrain();
 
 };

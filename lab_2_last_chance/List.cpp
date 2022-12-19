@@ -192,7 +192,7 @@ void myList::edit()
 	sort();
 }
 
-void myList::findStore()
+void myList::findTrain()
 {
 	system("cls");
 
@@ -216,7 +216,7 @@ void myList::findStore()
 			cout << "Time arrival "; SetConsoleTextAttribute(h, 4);
 			cout << p->getArrival(); SetConsoleTextAttribute(h, 15);
 			cout << " number of train "; SetConsoleTextAttribute(h, 4);
-			cout << p->getVisit() << endl; SetConsoleTextAttribute(h, 15);
+			cout << p->getTrain() << endl; SetConsoleTextAttribute(h, 15);
 			flag = 1;
 		}
 
@@ -230,7 +230,7 @@ void myList::findStore()
 }
 
 
-void myList::bestPrice()
+void myList::bestEarly()
 {
 	system("cls");
 

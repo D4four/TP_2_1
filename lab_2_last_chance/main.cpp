@@ -70,7 +70,7 @@ void menu()
 
 		case 5:
 			try {
-				obj.findStore();
+				obj.findTrain();
 			}
 			catch (int e)
 			{
@@ -82,7 +82,7 @@ void menu()
 			obj.flipFlag();
 			break;
 		case 7:
-			obj.bestPrice();
+			obj.bestEarly();
 			break;
 		default:
 			cout << "unknown" << endl;
